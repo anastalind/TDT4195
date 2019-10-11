@@ -14,6 +14,7 @@ glm::vec3 x_rotation_axis = glm::vec3(1.0f, 0.0f, 0.0f);
 glm::vec3 y_rotation_axis = glm::vec3(0.0f, 1.0f, 0.0f);
 glm::vec3 z_rotation_axis = glm::vec3(0.0f, 0.0f, 1.0f);
 
+#define JUST_TEST_CONST 5.0f
 // Enum that represent the axes
 typedef enum {X_AXIS, Y_AXIS, Z_AXIS} rotation_axis;
 
